@@ -1,0 +1,166 @@
+/* დაიწყო header */
+.body{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F2F5F8;
+   
+}
+header{
+    width: 100%;    
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding-top: 29px;
+   padding-left: 139px;
+   padding-bottom: 30px;
+   padding-right: 139px;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navi{
+   
+   display: flex;
+   align-items: center;
+   gap: 107px;
+    
+}
+ul{ 
+    display: flex;
+    gap: 69px;
+    font-family: 'Roboto';
+    }
+li{
+  
+   font-family: 'Roboto Slab';
+    
+
+    
+}
+.search{
+    width: 227px;
+    height: 37px;
+  border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F2F5F8;
+  
+}
+.fa-magnifying-glass{
+ padding: 10px;
+   border-radius: 5px;
+   width: 37px;
+   height: 37px;
+    background-color: #8172D5;
+}
+
+/*  დამთავრდა header */
+/* დაიწყო section */
+section {
+    width: 1366px;
+    width: 100%;
+}
+
+section {
+    width: 80%;
+   
+    margin: 59px auto 108px auto;
+}
+
+h2 {
+    font-size: 18px;
+    color: #133B3A;
+    font-family: 'Roboto';
+    margin-bottom: 59px;
+}
+
+
+
+.figur {
+width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 59px 0;
+    border-radius: 10px;
+
+}
+
+
+
+
+figure {
+    width: 23.8%;
+    height: 368px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: space-around;
+
+}
+
+.img {
+   width: 90%;
+
+}
+
+figcaption {
+    width: 80%;
+    height: 128px;
+    margin-top: 76px;   
+    font-size: 20px;
+     text-align: center;
+    color: #133B3A;
+ 
+    font-weight:bold;
+    text-align: center;
+    /* font რელატიურით არ ქნა რატომღაც */
+    
+   
+
+}
+
+/* დამთავრდა section */
+/*  იწყება footer */
+footer{
+    width: 1366px;
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #758BFD;
+    display: flex;
+    align-items: center;
+    color: white;
+font-size: 14px;    
+
+
+font-family: 'Roboto Slab', serif;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: 758BFD;
+    display: flex;
+    padding: 27px 139px;  
+    align-items: center; 
+    justify-content: space-between;
+    font-size: 14px;
+    color: white;
+
+}
+
+.ul-footer{
+    display: flex;
+    
+gap: 112px;
+}
+.li{
+    color: white;
+    
+}
+/*  დამთავრდა footer */
+
